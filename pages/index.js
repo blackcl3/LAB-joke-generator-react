@@ -1,3 +1,5 @@
+import GetJokeButton from '../components/GetJokeButton';
+
 function Home() {
   return (
     <div
@@ -9,7 +11,7 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      <h1>Welcome Home!</h1>
+      <GetJokeButton title="Get Button Joke" />
     </div>
   );
 }
